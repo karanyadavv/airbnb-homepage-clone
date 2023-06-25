@@ -1,0 +1,111 @@
+.header{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    height: 81px;
+    z-index: 200;
+    border-bottom: 1px solid #ebebebff;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.left-section{
+    display: flex;
+    width: 140px;
+    align-items: center;
+}
+
+.left-section .logo{
+    padding: 0px 0px 0px 39px;
+    height: 31px;
+}
+
+.middle-section{
+    display: flex;
+    margin-left: 352px;
+    margin-right: 182px;
+    flex: 1;
+}
+
+.rectangle{
+    max-width: 355px;
+    height: 48px;
+    width: 353px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    padding-left: 24px;
+    padding-right: 8px;
+    border: 1px solid #ddddddff;
+    color: black;
+    font-weight: 500;
+    transition: 0.15s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 1px;
+}
+
+.rectangle:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.guests{
+    color: #797979ff;
+}
+
+.separator{
+    color: #797979ff;
+}
+
+.right-section{
+    width: 270px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.globe-icon{
+    height: 15px;
+}
+
+.user-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+    width: 80px;
+    border-radius: 24px;
+    background-color: white;
+    border: 1px solid #ddddddff;
+    transition: 0.15s;
+    cursor: pointer;
+
+}
+
+.user-button:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.hamburger-icon{
+    height: 14px;
+    padding-left: 8px;
+}
+
+.user-icon{
+    height: 28px;
+}
+
+

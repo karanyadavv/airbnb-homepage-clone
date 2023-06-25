@@ -1,0 +1,39 @@
+.footer{
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    top: 570px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 200;
+    font-size: 14px;
+    background-color: white;
+    border-top: 1px solid #ebebebff;;
+}
+
+.footer-left-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 28px;
+    font-weight: 400;
+}
+
+.footer-right-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 28px;
+    font-weight: 500;
+}
+
+.footer-globe-icon{
+    height: 15px;
+}
+
+.footer-up-arrow{
+    height: 12px;
+}
